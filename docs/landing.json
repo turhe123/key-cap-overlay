@@ -1,0 +1,60 @@
+{
+  "seo_title": "Keystroke overlay for macOS demos",
+  "seo_description": "Free, open-source macOS menu bar app that shows your keystrokes and shortcuts as clean on-screen keycaps for demos, tutorials and screen recordings.",
+  "hero_title_line1": "Show every keystroke.",
+  "hero_title_accent": "Let viewers follow along.",
+  "hero_sub": "KeyCapOverlay draws every key and shortcut you press as clean keycaps on screen. Toggle it from the menu bar or with the global hotkey, Control-Option-K by default.",
+  "features_title": "Built for clear demos.",
+  "features_sub": "A small native menu bar app that stays out of your way and out of the Dock.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Keycaps and shortcut badges",
+      "desc": "Each key appears as a rounded keycap, and combinations like Command-Shift-4 are grouped into one compact badge. Typed text merges into a single chip that grows as you type."
+    },
+    {
+      "icon": "sliders",
+      "title": "All Keys or Shortcuts Only",
+      "desc": "Show everything, or only combos that include Command, Control or Option. Adjust fade delay, keycap size, text size, opacity and a light, dark or accent color scheme."
+    },
+    {
+      "icon": "cursor",
+      "title": "Mouse click badges",
+      "desc": "Optionally show left, right and middle clicks near the pointer so viewers can see what you pressed and where."
+    },
+    {
+      "icon": "lock",
+      "title": "Pauses for password fields",
+      "desc": "While macOS secure input is active, the overlay is cleared and paused. Keystrokes are only drawn on screen, never written to disk or sent over the network."
+    },
+    {
+      "icon": "display",
+      "title": "Place it where you need it",
+      "desc": "Choose bottom center, bottom left, bottom right, top center or follow the active screen, and pick which display to use. The overlay is click-through and joins all Spaces."
+    },
+    {
+      "icon": "bolt",
+      "title": "Native and lightweight",
+      "desc": "Written in SwiftUI and AppKit with no third-party code. It follows your keyboard layout, supports launch at login and re-enables its event tap if the system disables it."
+    }
+  ],
+  "permissions_step": "When prompted, grant Accessibility access to KeyCapOverlay in System Settings > Privacy & Security > Accessibility so it can see key presses and clicks.",
+  "faq": [
+    {
+      "q": "Is KeyCapOverlay really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub, with no account, ads or paid tier. If it is useful to you, there is an optional Support button that links to Ko-fi."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Only Accessibility, so a listen-only event tap can see key presses and mouse clicks. It does not request Screen Recording or Microphone access, because it does not capture the screen or audio."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Keystrokes stay in memory, are drawn on screen and are never written to disk or sent anywhere. The only thing saved is your settings, such as position, mode and hotkey, which macOS stores in the app's preferences."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source."
+    }
+  ]
+}

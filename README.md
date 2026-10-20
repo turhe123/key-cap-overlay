@@ -1,5 +1,7 @@
 # KeyCapOverlay
 
+**🌐 Website:** [turhe123.github.io/key-cap-overlay](https://turhe123.github.io/key-cap-overlay/)
+
 Show every key and shortcut you press as clean keycaps floating on screen for demos, tutorials and recordings.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,13 @@ KeyCapOverlay is a free, open-source, 100% native, backend-free alternative to p
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-settings.png" alt="KeyCapOverlay Settings window with a blue keycap preview" width="720"></p>
+
+<p align="center"><em>The Settings window with a live keycap preview of ⌘⇧4 in the Accent color scheme, plus controls for mode, fade delay, keycap size, opacity, display, launch at login and the toggle hotkey.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-menu.png" alt="KeyCapOverlay menu bar menu" width="560"></p>
+
+<p align="center"><em>The menu bar menu, with the Show Keystrokes toggle, Mode and Position submenus, mouse click badges, Settings and Support / Donate.</em></p>
 
 ## Install
 

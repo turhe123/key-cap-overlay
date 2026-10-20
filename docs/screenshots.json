@@ -1,0 +1,4 @@
+[
+  {"file":"01-settings.png","caption":"The Settings window with a live keycap preview of ⌘⇧4 in the Accent color scheme, plus controls for mode, fade delay, keycap size, opacity, display, launch at login and the toggle hotkey.","alt":"KeyCapOverlay Settings window with a blue keycap preview"},
+  {"file":"02-menu.png","caption":"The menu bar menu, with the Show Keystrokes toggle, Mode and Position submenus, mouse click badges, Settings and Support / Donate.","alt":"KeyCapOverlay menu bar menu"}
+]
